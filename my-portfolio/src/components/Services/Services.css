@@ -1,0 +1,20 @@
+.service {
+  margin-top: 6rem !important;
+  margin-bottom: 4rem !important;
+  background-color: white !important;
+  border-radius: 20px !important;
+  padding: 4rem !important;
+}
+.service-item:hover {
+  border: solid 1px rgb(73, 144, 130) !important;
+  transition: all 0.4s !important;
+}
+.service-title {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+.leaf {
+  font-size: 2.5rem !important;
+  color: rgb(73, 144, 130);
+  margin-bottom: 2rem;
+}

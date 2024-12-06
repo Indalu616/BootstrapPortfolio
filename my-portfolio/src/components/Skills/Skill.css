@@ -1,0 +1,28 @@
+.skill {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  row-gap: 2rem !important;
+}
+.skill-icon {
+  font-size: 2.5rem !important;
+  color: rgb(73, 144, 130) !important;
+}
+.skill-level {
+  background-color: rgb(73, 144, 130) !important;
+  width: 100% !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  padding: 0.4rem;
+}
+.skill-level:hover {
+  background-color: black !important;
+  transition: all 0.4s !important;
+}
+.skill:hover {
+  border: 1px solid rgb(73, 144, 130) !important;
+  transition: all 0.4s;
+}

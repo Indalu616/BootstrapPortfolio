@@ -1,0 +1,91 @@
+/* image section style */
+.my-name,
+.my-role {
+  color: #70667f !important;
+}
+.image-section {
+  background-color: white !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image-section img {
+  width: 200px !important;
+  height: 200px !important;
+  object-fit: cover;
+  border: 6px dotted yellow !important;
+  border-radius: 50% !important;
+  margin-top: 3rem !important;
+}
+/* header left sectiion style */
+.header-left {
+  background-color: #ffffff !important;
+  border-radius: 20px;
+  border-bottom: 0.5rem solid rgb(73, 144, 130) !important;
+}
+/* header right section style */
+.header-right {
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.header-right-top {
+  background-color: #ffffff !important;
+  border-radius: 20px !important;
+  /* height: 70%; */
+  width: 100%;
+  border-bottom: 0.5rem solid rgb(73, 144, 130) !important;
+}
+.download-btn {
+  background-color: rgb(73, 144, 130) !important;
+  color: white !important;
+  font-weight: 600 !important;
+}
+.download-btn:hover{
+  background-color: rgba(73, 144, 130, 0.715) !important;
+}
+.header-right-bottom {
+  background-color: #ffffff !important;
+  border-radius: 20px !important;
+  width: 100%;
+  margin-top: 2rem !important;
+  border-bottom: 0.5rem solid rgb(73, 144, 130) !important;
+}
+/* style for freelancing dot class */
+.dot {
+  font-weight: 700;
+  color: rgb(73, 144, 130) !important;
+}
+.exp-p,
+.exp-h2 {
+  font-weight: 700;
+  color: rgb(73, 144, 130);
+}
+/* style for socail links */
+.social-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 2rem;
+  margin-bottom: 2rem;
+}
+.social-wrapper:hover {
+  background-color: rgb(73, 144, 130) !important;
+  transition: all 0.4s !important;
+}
+.social-wrapper:hover .social {
+  color: white !important;
+}
+.header-h4 {
+  /* color: rgb(73, 144, 130); */
+  line-height: 1.5rem;
+  /* font-size: 1.5rem; */
+}
+/* media query */
+
+@media (max-width: 48rem) {
+  .header-left {
+    margin-bottom: 3rem !important;
+  }
+}

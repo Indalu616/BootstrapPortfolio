@@ -1,0 +1,17 @@
+/* btn */
+.btn-hire{
+  color: #70667f !important;
+}
+.btn-hire:hover {
+  background-color: rgb(73, 144, 130) !important;
+  color: white !important;
+  transition: all 0.4s !important;
+}
+/* navlink styles */
+.navLink {
+  font-weight: 500 !important;
+  color: #70667f !important;
+}
+.navLink:hover {
+  color: rgb(73, 144, 130) !important;
+}

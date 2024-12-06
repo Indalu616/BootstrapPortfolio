@@ -1,0 +1,16 @@
+.contact {
+  background-color: white !important;
+  padding: 4rem !important;
+}
+.contact-icon {
+  font-size: 2rem;
+  color: rgb(73, 144, 130) !important;
+}
+.contact-btn {
+  background-color: rgb(73, 144, 130) !important;
+  transition: all 0.4s !important;
+  color: white !important;
+}
+.contact-btn:hover {
+  background-color: black !important;
+}

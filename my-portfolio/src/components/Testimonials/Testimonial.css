@@ -1,0 +1,35 @@
+/* :root{
+  dark-black:#70667f;
+}
+ */
+
+.testimonial {
+  background-color: white;
+}
+.testimonial-wrapper {
+  padding: 1rem !important;
+}
+.testimonial-box {
+  padding: 2rem !important;
+}
+.testimonial-box img {
+  border-radius: 50%;
+  margin-bottom: 1rem;
+}
+.testimonial-content {
+  line-height: 2rem !important ;
+  color: #70667f !important;
+}
+.customer-box {
+  margin-top: 4rem !important;
+}
+.customer-h4 {
+  color: rgb(73, 144, 130) !important;
+}
+.customer-name,.role{
+  color: #70667f !important;
+  font-weight: 600 !important;
+}
+.customer-img{
+  border: 0.1rem dotted red !important;
+}
