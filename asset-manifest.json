@@ -1,22 +1,30 @@
 {
   "files": {
-    "main.css": "/BootstrapPortfolio/static/css/main.c5a86c16.css",
-    "main.js": "/BootstrapPortfolio/static/js/main.f686e792.js",
+    "main.css": "/BootstrapPortfolio/static/css/main.7efdc372.css",
+    "main.js": "/BootstrapPortfolio/static/js/main.089fff41.js",
     "static/media/me.png": "/BootstrapPortfolio/static/media/me.4384175ad03564c72b4f.png",
+    "static/media/sw_certificate.png": "/BootstrapPortfolio/static/media/sw_certificate.f587c01bb2916f2bf02c.png",
     "static/media/img-7.jpeg": "/BootstrapPortfolio/static/media/img-7.c7b495f4da80d680e762.jpeg",
+    "static/media/Intern.png": "/BootstrapPortfolio/static/media/Intern.d17399efc30db7c18f2a.png",
     "static/media/img-1.jpeg": "/BootstrapPortfolio/static/media/img-1.7fcf89d14e25ebbbf25d.jpeg",
     "static/media/img-2.jpeg": "/BootstrapPortfolio/static/media/img-2.257d2892424bcf25fdf4.jpeg",
+    "static/media/pt.png": "/BootstrapPortfolio/static/media/pt.08cb2400ffb0fcfe29d6.png",
+    "static/media/js.png": "/BootstrapPortfolio/static/media/js.bf2d635a2a40592048cf.png",
     "static/media/img-5.jpeg": "/BootstrapPortfolio/static/media/img-5.a024fe2f2762dffcdc90.jpeg",
+    "static/media/py.png": "/BootstrapPortfolio/static/media/py.889dc6424e5fe5a41eb8.png",
     "static/media/img-6.jpeg": "/BootstrapPortfolio/static/media/img-6.1387c64abe5248388770.jpeg",
     "static/media/img-3.jpeg": "/BootstrapPortfolio/static/media/img-3.6aefbc6b357d6693b031.jpeg",
     "static/media/client.jpg": "/BootstrapPortfolio/static/media/client.8945d06c9bd50b0b6cf8.jpg",
+    "static/media/revicons.eot": "/BootstrapPortfolio/static/media/revicons.a77de540a38981833f9e.eot",
+    "static/media/revicons.ttf": "/BootstrapPortfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/logo.svg": "/BootstrapPortfolio/static/media/logo.8c290e546f04b7adbe7814261424d8c4.svg",
+    "static/media/revicons.woff": "/BootstrapPortfolio/static/media/revicons.e8746a624ed098489406.woff",
     "index.html": "/BootstrapPortfolio/index.html",
-    "main.c5a86c16.css.map": "/BootstrapPortfolio/static/css/main.c5a86c16.css.map",
-    "main.f686e792.js.map": "/BootstrapPortfolio/static/js/main.f686e792.js.map"
+    "main.7efdc372.css.map": "/BootstrapPortfolio/static/css/main.7efdc372.css.map",
+    "main.089fff41.js.map": "/BootstrapPortfolio/static/js/main.089fff41.js.map"
   },
   "entrypoints": [
-    "static/css/main.c5a86c16.css",
-    "static/js/main.f686e792.js"
+    "static/css/main.7efdc372.css",
+    "static/js/main.089fff41.js"
   ]
 }
