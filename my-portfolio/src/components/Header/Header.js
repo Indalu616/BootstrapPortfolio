@@ -7,10 +7,10 @@ import { SlSocialLinkedin } from "react-icons/sl";
 import { FiGithub } from "react-icons/fi";
 const PDF_FILE_URL = "https://indalu616.github.io/BootstrapPortfolio/my_cv.pdf";
 function Header() {
-  const downLoad = (url) => {
-    const fileName = url.split("/").pop();
+  const downLoad = () => {
+    const fileName = PDF_FILE_URL.split("/").pop();
     const aTag = document.createElement("a");
-    aTag.href = url;
+    aTag.href = PDF_FILE_URL;
     aTag.setAttribute("download", fileName);
     document.body.appendChild(aTag);
     aTag.click();
@@ -62,7 +62,7 @@ function Header() {
             <p>
               <button
                 className="btn btn-rounded download-btn"
-                onClick={downLoad(PDF_FILE_URL)}
+                onClick={downLoad}
               >
                 Download CV
               </button>
