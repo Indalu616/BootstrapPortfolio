@@ -1,4 +1,5 @@
 import About from "./components/About/About";
+import Certficate from "./components/Certificate/Certficate";
 import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
@@ -14,6 +15,7 @@ function App() {
       <Header />
       <Services />
       <About />
+      <Certficate/>
       <Skill />
       <Work />
       <Testimonial />
