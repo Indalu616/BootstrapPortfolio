@@ -15,9 +15,9 @@ function About() {
                 </p>
               </div>
               <div className="col-8">
-                <p className="my-name">2023-Present</p>
-                <p className="about-p my-name">Abu Dhabi University</p>
-                <p className="my-name">Course Assistant</p>
+                <p className="my-name">May 2024-Jun 2024</p>
+                <p className="about-p my-name">Prodigy Info Tech</p>
+                <p className="my-name">Web Developer</p>
               </div>
             </div>
 
@@ -28,9 +28,9 @@ function About() {
                 </p>
               </div>
               <div className="col-8">
-                <p className="my-name">2023-Present</p>
+                <p className="my-name">Jan 2024-jun 2024</p>
                 <p className="about-p my-name">Abu Dhabi University</p>
-                <p className="my-name">Course Assistant</p>
+                <p className="my-name">Peer Tutor & Peer Mentor</p>
               </div>
             </div>
 
@@ -41,7 +41,7 @@ function About() {
                 </p>
               </div>
               <div className="col-8">
-                <p className="my-name">2023-Present</p>
+                <p className="my-name">Sept 2024-Present</p>
                 <p className="about-p my-name">Abu Dhabi University</p>
                 <p className="my-name">Course Assistant</p>
               </div>

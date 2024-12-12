@@ -10,7 +10,7 @@ function Testimonial() {
       <h2 className="text-center mt-3 mb-4 my-name">What Clients Say?</h2>
       <div className="row customer-box">
         <div className="col-md-5">
-          <h4 className="text-center customer-h4 my-name">Our Happy Customers</h4>
+          <h4 className="text-center customer-h4 my-name">My Happy Customers</h4>
           <div className="client-img">
             <img src={client} alt="client-logo" style={{ width: "100%" }}></img>
           </div>

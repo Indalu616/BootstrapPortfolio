@@ -37,7 +37,9 @@ function NavbarApp() {
             className="btn btn-rounded border mx-lg-3 btn-hire "
             style={{ fontWeight: 600 }}
           >
-            Hire Me!
+            <a href="https://www.upwork.com/freelancers/~01f52d977a655e5876">
+              Hire Me!
+            </a>
           </button>
         </Navbar.Collapse>
       </Container>

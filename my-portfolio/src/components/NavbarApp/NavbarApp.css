@@ -1,6 +1,14 @@
 /* btn */
+.btn-hire a{
+  text-decoration: none !important;
+  color: #70667f !important;
+}
 .btn-hire{
   color: #70667f !important;
+  transition: all 0.4s !important;
+}
+.btn-hire:hover a{
+  color: white !important;
 }
 .btn-hire:hover {
   background-color: rgb(73, 144, 130) !important;

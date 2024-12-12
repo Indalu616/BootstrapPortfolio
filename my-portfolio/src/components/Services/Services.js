@@ -30,8 +30,8 @@ function Services() {
             </p>
             <h4 className="my-name">Web design</h4>
             <p className="my-name">
-              Indalu gives you the blocks & kits you need to create a true
-              website within minutes.
+              Indalu Kelbesa is a creative web designer with expertise in
+              crafting visually appealin and responsive websites
             </p>
           </div>
         </div>
@@ -40,8 +40,9 @@ function Services() {
             <FaBookReader className="leaf" />
             <h4 className="my-name">Teaching</h4>
             <p className="my-name">
-              Indalu gives you the blocks & kits you need to create a true
-              website within minutes.
+              Indalu Kelbesa is a dedicated web development instructor, passionate
+              about guiding students in creating responsive and appealing
+              websites.
             </p>
           </div>
         </div>

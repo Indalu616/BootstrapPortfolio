@@ -3,15 +3,14 @@
 .my-role {
   color: #70667f !important;
 }
-a{
-  text-decoration: none !important;
-  color: rgba(255, 255, 255, 0.836) !important;
-}
 .image-section {
   background-color: white !important;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.social{
+  color: #70667f !important;
 }
 .image-section img {
   width: 200px !important;

@@ -18,8 +18,8 @@ function Work() {
                 <div className="img-wrapper">
                   <img src={el.url} alt="Project"></img>
                   <div className="project-link">
-                    <button className="btn border rounded show-btn">Live</button>
-                    <button className="btn border rounded show-btn">GitHub</button>
+                    <button className="btn border rounded show-btn"><a href={el.link}>Live</a></button>
+                    <button className="btn border rounded show-btn"><a href={el.github}>GitHub</a></button>
                   </div>
                 </div>
                 <div className="description">

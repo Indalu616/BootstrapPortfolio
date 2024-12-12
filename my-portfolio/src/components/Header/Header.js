@@ -31,16 +31,18 @@ function Header() {
           </div>
           <div className="social-links">
             <button className="btn btn-rounded border social-wrapper">
-              <FaFacebookF className="social" />
+             <a href="https://www.facebook.com/profile.php?id=100090785490569" style={{color:"black"}}><FaFacebookF className="social" /></a> 
             </button>
             <button className="btn btn-rounded border social-wrapper">
               <CiTwitter className="social" />
             </button>
             <button className="btn btn-rounded border social-wrapper">
-              <SlSocialLinkedin className="social" />
+              <a href="https://www.linkedin.com/in/indalu-kelbesa-106956293/" style={{color:"black"}}>
+                <SlSocialLinkedin className="social" />
+              </a>
             </button>
             <button className="btn btn-rounded border social-wrapper">
-              <FiGithub className="social" />
+             <a href="https://github.com/Indalu616" style={{color:"black"}}><FiGithub className="social" /></a> 
             </button>
           </div>
         </div>
