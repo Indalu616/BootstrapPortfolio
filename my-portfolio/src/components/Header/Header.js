@@ -5,7 +5,17 @@ import { FaFacebookF } from "react-icons/fa6";
 import { CiTwitter } from "react-icons/ci";
 import { SlSocialLinkedin } from "react-icons/sl";
 import { FiGithub } from "react-icons/fi";
+const PDF_FILE_URL = "https://indalu616.github.io/BootstrapPortfolio/my_cv.pdf";
 function Header() {
+  const downLoad = (url) => {
+    const fileName = url.split("/").pop();
+    const aTag = document.createElement("a");
+    aTag.href = url;
+    aTag.setAttribute("download", fileName);
+    document.body.appendChild(aTag);
+    aTag.click();
+    aTag.remove();
+  };
   return (
     <div className="container">
       <div className="row header">
@@ -39,8 +49,9 @@ function Header() {
             <p className="my-name">Hello There! </p>
             <p className=" header-h4 my-name">
               I'm Indalu Kelbesa, a front end web developer and UI designer with
-              pixel-perfect precision.Proficient in frameworks such as React and tools like Git, they ensure seamless user experiences
-              across various devices and browsers.
+              pixel-perfect precision.Proficient in frameworks such as React and
+              tools like Git, they ensure seamless user experiences across
+              various devices and browsers.
             </p>
             <p className="my-name">
               <span className="dot">
@@ -49,7 +60,10 @@ function Header() {
               Available For Freelancing
             </p>
             <p>
-              <button className="btn btn-rounded download-btn">
+              <button
+                className="btn btn-rounded download-btn"
+                onClick={downLoad(PDF_FILE_URL)}
+              >
                 Download CV
               </button>
             </p>
